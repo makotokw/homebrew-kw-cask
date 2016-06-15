@@ -22,18 +22,17 @@ cask 'araxis-merge-2013' do
   depends_on macos: '>= :snow_leopard'
 
   app 'Araxis Merge.app', target: 'Araxis Merge 2013.app'
-
-  # binary "#{appdir}/Araxis Merge.app/Contents/Utilities/araxisgitdiff"
-  # binary "#{appdir}/Araxis Merge.app/Contents/Utilities/araxisopendiff"
-  # binary "#{appdir}/Araxis Merge.app/Contents/Utilities/araxissvndiff"
-  # binary "#{appdir}/Araxis Merge.app/Contents/Utilities/compare"
-  # binary "#{appdir}/Araxis Merge.app/Contents/Utilities/araxisgitmerge"
-  # binary "#{appdir}/Araxis Merge.app/Contents/Utilities/araxisp4diff"
-  # binary "#{appdir}/Araxis Merge.app/Contents/Utilities/araxissvndiff3"
-  # binary "#{appdir}/Araxis Merge.app/Contents/Utilities/compare2"
-  # binary "#{appdir}/Araxis Merge.app/Contents/Utilities/araxishgmerge"
-  # binary "#{appdir}/Araxis Merge.app/Contents/Utilities/araxisp4winmrg"
-  # binary "#{appdir}/Araxis Merge.app/Contents/Utilities/araxissvnmerge"
+  binary "#{appdir}/Araxis Merge 2013.app/Contents/Utilities/araxisgitdiff"
+  binary "#{appdir}/Araxis Merge 2013.app/Contents/Utilities/araxisopendiff"
+  binary "#{appdir}/Araxis Merge 2013.app/Contents/Utilities/araxissvndiff"
+  binary "#{appdir}/Araxis Merge 2013.app/Contents/Utilities/compare"
+  binary "#{appdir}/Araxis Merge 2013.app/Contents/Utilities/araxisgitmerge"
+  binary "#{appdir}/Araxis Merge 2013.app/Contents/Utilities/araxisp4diff"
+  binary "#{appdir}/Araxis Merge 2013.app/Contents/Utilities/araxissvndiff3"
+  binary "#{appdir}/Araxis Merge 2013.app/Contents/Utilities/compare2"
+  binary "#{appdir}/Araxis Merge 2013.app/Contents/Utilities/araxishgmerge"
+  binary "#{appdir}/Araxis Merge 2013.app/Contents/Utilities/araxisp4winmrg"
+  binary "#{appdir}/Araxis Merge 2013.app/Contents/Utilities/araxissvnmerge"
 
   zap delete: [
                 '~/Library/Preferences/com.araxis.merge.LSSharedFileList.plist',
